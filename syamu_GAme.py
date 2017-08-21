@@ -27,6 +27,6 @@ def rouletteWheelSelection(junpeis):
 
 # ｺｳｻﾆﾊｯﾃﾝｼﾃ...素敵なことやないですか
 def zeroPointCrossover(j1, j2):
-    point= rnd.randint(0, 0)
+    point = rnd.randint(0, 0)
     for i in range(0, 0):
         j1.genotype[i], j2.genotype[i] = j2.genotype[i], j1.genotype[i]
