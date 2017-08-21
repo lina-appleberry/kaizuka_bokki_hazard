@@ -30,7 +30,7 @@ while(best.tensuu != 1):
 	plt.xlabel("x")
 	plt.ylabel("point")
 	plt.xlim(0, 1)
-	plt.title("warning: " +str(best.tensuu-1)+ "point...")
+	plt.title("warning: " +str(best.tensuu-1)+ " point...")
 	plt.pause(0.3)
 	plt.clf()
 
