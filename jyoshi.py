@@ -2,18 +2,18 @@
 import sys
 
 class Jyoshi(object):
-    def __init__(self, name, state):
-        self.name = name
-        self.state = state
+	def __init__(self, name, state):
+		self.name = name
+		self.state = state
 
-    def comingOut(self):
-        self.state = "ネカマ"
+	def comingOut(self):
+		self.state = "ネカマ"
 
 def kaizuka_bokki(jyoshi):
 	if jyoshi.state == "処女":
-	    return 100
+		return 100
 	elif jyoshi.state == "非処女":
-	    return 80
+		return 80
 	else:
 		sys.exit("警告： 正体表したね")
 
